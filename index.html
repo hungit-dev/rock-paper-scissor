@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+    /*Everything*/
+      *{
+        background-color: lightgrey;
+      }
+      /*class*/
+      .introduction{
+        padding: 30px;
+        text-align: center;
+        font-size: 50px;
+        height:150px;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        
+        
+      }
+      .button-container{
+        display: flex;
+        justify-content: space-around;
+        background-color: pink;
+      }
+      .result-display{
+        padding:50px;
+        text-align: center;
+        background-color: bisque;
+      }
+      .footer{
+        padding:20px;
+        background-color: lightgreen;
+        border: 1px solid black;
+      }
+      /*tag*/
+      button{
+        font-size: 70px;
+        width:350px;
+        height: 350px;
+        background-color: lightblue;
+      }
+      
+    </style>
 </head>
 <body>
+    <div class="introduction">WELCOME TO ROCK-PAPER-SCISSORS GAME</div>
+
+    <div class="button-container">
+       <button class="rock"> Rock</button>
+       <button class="paper">Paper</button>
+       <button class="scissors">Scissors</button>
+    </div>
+
+    <div class="result-display">
+        <div class="result footer"></div>
+        <div class="human-score footer"></div>
+        <div class="computer-score footer"></div>
+        <div class="winner footer"></div>
+    </div>
+
     <script src="hung.js"></script>
-    
+  
 </body>
 </html>
